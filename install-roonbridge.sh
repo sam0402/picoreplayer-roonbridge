@@ -1,7 +1,7 @@
 #!/bin/busybox ash
 
 . /etc/init.d/tc-functions
-. /home/tc/www/cgi-bin/pcp-functions
+. /var/www/cgi-bin/pcp-functions
 
 useBusybox
 TARGET=`cat /etc/sysconfig/backup_device`
