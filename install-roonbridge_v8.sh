@@ -9,7 +9,7 @@ TARGET=`cat /etc/sysconfig/backup_device`
 
 sudo -u tc tce-load -wi pcp-ffmpeg.tcz
 cd /opt
-wget http://download.roonlabs.com/updates/stable/RoonBridge_linuxarmv8.tar.bz2
+wget http://download.roonlabs.com/builds/RoonBridge_linuxarmv8.tar.bz2
 tar xf RoonBridge_linuxarmv8.tar.bz2
 rm -f /opt/RoonBridge_linuxarmv8.tar.bz2
 
