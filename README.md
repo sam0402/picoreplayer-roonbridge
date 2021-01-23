@@ -7,6 +7,10 @@ To install, run:
 
 `wget -O - https://raw.githubusercontent.com/sam0402/picoreplayer-roonbridge/master/install-roonbridge.sh | sudo sh`
 
+To install ARMv8, run:
+
+`wget -O - https://raw.githubusercontent.com/sam0402/picoreplayer-roonbridge/master/install-roonbridge_v8.sh | sudo sh`
+
 To uninstall, run:
 
 `wget -O - https://raw.githubusercontent.com/sam0402/picoreplayer-roonbridge/master/uninstall-roonbridge.sh | sudo sh`
