@@ -8,7 +8,7 @@ TARGET=`cat /etc/sysconfig/backup_device`
 
 sudo -u tc tce-load -wi pcp-ffmpeg.tcz
 cd /opt
-wget -c http://download.roonlabs.com/updates/stable/RoonBridge_linuxarmv7hf.tar.bz2 -O - | tar -jx
+wget -O - http://download.roonlabs.com/updates/stable/RoonBridge_linuxarmv7hf.tar.bz2 | tar -jx
 
 mkdir -p /.RoonBridge/Settings
 echo AskAlways > /.RoonBridge/Settings/update_mode
